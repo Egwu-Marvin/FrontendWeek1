@@ -10,7 +10,7 @@ section:nth-of-type(2n+1)>ol>li:nth-child(2n+3){
 }
 
 section:nth-of-type(2n+2)>ol>li:nth-child(2n+2) {
-    background-color: yellowgreen;
+    background-color: fuchsia;
     padding: 2em;
 }
 
