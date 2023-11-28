@@ -4,13 +4,17 @@ h2{
 }
 
 
-section:nth-of-type(2n+2)>ol>li:nth-child(2n+2){
+section:nth-of-type(2n+1)>ol>li:nth-child(2n+3){
     background-color: tomato;
     padding: 2em;
 }
 
-section:nth-of-type(2n+1)>ol>li:nth-child(2n+3){
+section:nth-of-type(2n+2)>ol>li:nth-child(2n+2) {
     background-color: yellowgreen;
+    padding: 2em;
+}
+
+ol>li{
     padding: 2em;
 }
 
